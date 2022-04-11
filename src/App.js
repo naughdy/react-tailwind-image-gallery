@@ -19,12 +19,12 @@ export const App = () => {
       .catch((err) => console.log(err));
   }, [term]);
   return (
-    <div className="container mx-auto">
+    <div className="container content-center">
       <ImageSearch searchText={(text) => setTerm(text)} />
       {loading ? (
         <h1 className="text-6xl text-center mx-auto mt-32">Loading...</h1>
       ) : (
-        <div className="grid grid-cols-3 gaps-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gaps-4 place-items-center">
           {images.map((item) => (
             <ImageCard image={item} key={item.id} />
           ))}
