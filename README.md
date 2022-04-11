@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
+Live Project Webiste: https://react-pixabay-image-gallery.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Add you REACT_PIXABAY_API_KEY in .env file
 
 ## Available Scripts
 
